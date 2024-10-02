@@ -1,0 +1,63 @@
+# Porter Delivery Time Analysis
+
+## Project Overview
+This project aims to develop a model that accurately estimates delivery time for Porter orders by analyzing various factors like restaurant type, items ordered, and delivery partner availability.
+
+## Visualizations and Insights
+
+### 1. Order Volume Over Time
+This line plot shows the number of orders placed each day over a specific period.
+![Order Volume Over Time](images/order_volume_over_time.png) <!-- Update with actual path if images are included -->
+
+**Insights**:
+- The plot reveals trends in order volume, highlighting peaks on weekends and during specific promotions.
+- Significant drops or increases may correlate with external factors (e.g., holidays).
+
+### 2. Weekly Order Distribution
+This visualization illustrates the distribution of orders per week.
+![Weekly Order Distribution](images/weekly_order_distribution.png)
+
+**Insights**:
+- The data reveals patterns in order placement throughout the week, with notable peaks.
+- Weeks with significant spikes may suggest seasonal trends or special events.
+
+### 3. Monthly Order Trends
+A bar chart depicting the number of orders per month.
+![Monthly Order Trends](images/monthly_order_trends.png)
+
+**Insights**:
+- Fluctuations in order volume are observed from month to month, correlating with seasonal demand.
+- Months with unusually high or low order counts may indicate specific marketing campaigns.
+
+### 4. Order Volume by Day Type (Weekday vs. Weekend)
+This visualization compares order volume between weekdays and weekends.
+![Weekday vs Weekend Orders](images/weekday_weekend_orders.png)
+
+**Insights**:
+- A clear difference in ordering behavior, with weekends typically showing higher volumes.
+- This insight informs resource allocation strategies during peak weekend hours.
+
+### 5. Distribution of Delivery Times
+This histogram visualizes the distribution of delivery times.
+![Delivery Time Distribution](images/delivery_time_distribution.png)
+
+**Insights**:
+- The histogram shows whether most deliveries fall within a specific time range or if there are outliers.
+- Analyzing delivery times can help identify areas for improvement in the delivery process.
+
+### 6. Order Volume by Hour of the Day
+This bar chart depicts the number of orders placed during different hours of the day.
+![Order Volume by Hour](images/order_volume_by_hour.png)
+
+**Insights**:
+- Highlights peak ordering hours, informing marketing and staffing strategies.
+- It shows whether more orders come in during lunch or dinner hours.
+
+## Conclusion
+This project demonstrates the potential for data analysis in optimizing delivery services. By understanding order patterns and delivery times, Porter's efficiency can be enhanced.
+
+## How to Use the Notebook
+1. Clone the repository.
+2. Install dependencies using:
+   ```bash
+   pip install -r requirements.txt
